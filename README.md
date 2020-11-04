@@ -34,7 +34,7 @@
 
 | Column     | Type       | Options           |
 | ---------- | ---------- | ----------------- |
-| content    | text       | null: false       |
+| content    | text       |                   |
 | recipes_id | references | foreign_key: true |
 |            |            | null: false       |
 | user_id    | references | foreign_key: true |
