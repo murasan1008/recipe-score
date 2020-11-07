@@ -22,7 +22,7 @@
 | ------------------ | ---------- | ----------------- |
 | name               | string     | null: false       |
 | reference          | text       | null: false       |
-| user_id            | references | null: false, foreign_key: true |
+| user_id            | references | null: false<br>foreign_key: true |
 
 ### Association
 
@@ -34,8 +34,8 @@
 | Column     | Type       | Options           |
 | ---------- | ---------- | ----------------- |
 | content    | text       |                   |
-| recipes_id | references | null: false, foreign_key: true |
-| user_id    | references | null: false, foreign_key: true |
+| recipes_id | references | null: false<br>foreign_key: true |
+| user_id    | references | null: false<br>foreign_key: true |
 
 ### Association
 
